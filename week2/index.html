@@ -21,7 +21,7 @@
         arrays, and functions. I think the most important thing to remember
         to use the function key work and parenthesis, then parameters if needed
         and finally the body of the function and it may or may not have a return
-        value. In the book's example there are several functions to make a 3 
+        value. In the book's example there are several functions to make a 3
         questions quiz. It uses the function check to see if the answer is correct
         and add the points accumulated if the answer is correct. Then at the end
         of the questions it shows the final score.
@@ -29,51 +29,51 @@
     <h1>Code Example:</h1>
     <main>
         <!-- <form> -->
-            <div>
-                <h2>Class example "save button":</h2>
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name">
-            </div>
-            <div>
-                <button>Save</button>
-            </div>
-            <div id="output">
-            </div>
+        <div>
+            <h2>Class example "save button":</h2>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+        </div>
+        <div>
+            <button>Save</button>
+        </div>
+        <div id="output">
+        </div>
         <!-- </form> -->
-            <div>
-                <h2>Book example:</h2>
-                <p>const quiz = [<br>
-    ["What is Superman's real name?","Clark Kent"],<br>
-    ["What is Wonder Woman's real name?","Diana Prince"],<br>
-    ["What is Batman's real name?","Bruce Wayne"]<br>
-];<br>
-function start(quiz){<br>
-    let score = 0;<br>
-    // main game loop<br>
-    for(const [question,answer] of quiz){<br>
-        const response = ask(question);<br>
-        check(response,answer);<br>
-    }<br>
-    // end of main game loop<br>
-    gameOver();<br>
-    // function declarations<br>
-    function ask(question){<br>
-        return prompt(question);<br>
-    }<br>
-    function check(response,answer){<br>
-        if(response === answer){<br>
-        alert('Correct!');<br>
-        score++;<br>
-        } else {<br>
-        alert(`Wrong! The correct answer was ${answer}`);<br>
-        }<br>
-    }<br>
-    function gameOver(){<br>
-        alert(`Game Over, you scored ${score} point${score !== 1 ? 's' : ''}`);<br>
-    }<br>
-}<br>
-start(quiz);</p>
-            </div>
+        <div>
+            <h2>Book example:</h2>
+            <p>const quiz = [<br>
+                ["What is Superman's real name?","Clark Kent"],<br>
+                ["What is Wonder Woman's real name?","Diana Prince"],<br>
+                ["What is Batman's real name?","Bruce Wayne"]<br>
+                ];<br>
+                function start(quiz){<br>
+                let score = 0;<br>
+                // main game loop<br>
+                for(const [question,answer] of quiz){<br>
+                const response = ask(question);<br>
+                check(response,answer);<br>
+                }<br>
+                // end of main game loop<br>
+                gameOver();<br>
+                // function declarations<br>
+                function ask(question){<br>
+                return prompt(question);<br>
+                }<br>
+                function check(response,answer){<br>
+                if(response === answer){<br>
+                alert('Correct!');<br>
+                score++;<br>
+                } else {<br>
+                alert(`Wrong! The correct answer was ${answer}`);<br>
+                }<br>
+                }<br>
+                function gameOver(){<br>
+                alert(`Game Over, you scored ${score} point${score !== 1 ? 's' : ''}`);<br>
+                }<br>
+                }<br>
+                start(quiz);</p>
+        </div>
     </main>
     <p>
     </p>
