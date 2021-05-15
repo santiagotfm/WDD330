@@ -1,0 +1,47 @@
+main{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 33% 33% 33%;
+}
+
+div{
+    height: 200px;
+    font-size: 150px;
+
+}
+
+.b1{
+    border-right: solid thin black;
+    border-bottom: solid thin black;
+}
+
+.b2{
+    border-bottom: solid thin black;
+}
+
+.b3{
+    border-left: solid thin black;
+    border-bottom: solid thin black;
+}
+
+.b4{
+    border-bottom: solid thin black;
+    border-right: solid thin black;
+}
+
+.b5{
+    border-bottom: solid thin black;
+}
+
+.b6{
+    border-bottom: solid thin black;
+    border-left: solid thin black;
+}
+
+.b7{
+    border-right: solid thin black;
+}
+
+.b9{
+    border-left: solid thin black;
+}

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD330 Portfolio</title>
+    <link href="../styles/styles.css" rel="stylesheet" type="text/css">
+    <link href="styles/week4.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <nav>
+        <ul>
+        </ul>
+    </nav>
+    <h1>Week 4 Notes:</h1>
+    <p>
+        This week I started reading about Forms and how to manipulate and
+        use Forms information through Javascript. They can also be executed
+        or triggered with an event, just like any other JS event. Object-oriented
+        programming is very useful. Classes and object make possible for us to
+        implement the same code and at the same time is easier to modify
+        if there needs to be any updates.
+    </p>
+    <h1>Code Example:</h1>
+    <p>
+        In this html code there is a simple form from w3resource.com and
+        Javascript can be uses to validate input from the user. In this
+        example we can make sure the user's user id is within the standards,
+        in this case between 5-12 characters. If it doesn't, or if the user
+        does not type anything then there will an alert after clicking submit.
+    </p>
+    <main>
+        <!DOCTYPE html>
+        <html lang="en">
+
+        <head>
+            <meta charset="utf-8">
+            <title>JavaScript Form Validation using a sample registration form</title>
+            <meta name="keywords" content="example, JavaScript Form Validation, Sample registration form" />
+            <meta name="description"
+                content="This document is an example of JavaScript Form Validation using a sample registration form. " />
+            <script>
+                function formValidation() {
+                    var uid = document.registration.userid;
+                    if (userid_validation(uid, 5, 12))
+                        return false;
+                }
+
+                function userid_validation(uid, mx, my) {
+                    var uid_len = uid.value.length;
+                    if (uid_len == 0 || uid_len >= my || uid_len < mx) {
+                        alert("User Id should not be empty / length be between " + mx + " to " + my);
+                        uid.focus();
+                        return false;
+                    }
+                    return true;
+                }
+            </script>
+        </head>
+
+        <body onload="document.registration.userid.focus();">
+            <h1>Registration Form</h1>
+            Use tab keys to move from one input field to the next.
+            <form name='registration' onSubmit="return formValidation();">
+                <ul>
+                    <li><label for="userid">User id:</label></li>
+                    <li><input type="text" name="userid" size="12" /></li>
+                    <li><label for="passid">Password:</label></li>
+                    <li><input type="password" name="passid" size="12" /></li>
+                    <li><label for="username">Name:</label></li>
+                    <li><input type="text" name="username" size="50" /></li>
+                    <li><label for="address">Address:</label></li>
+                    <li><input type="text" name="address" size="50" /></li>
+                    <li><label for="country">Country:</label></li>
+                    <li><select name="country">
+                            <option selected="" value="Default">(Please select a country)</option>
+                            <option value="AF">Australia</option>
+                            <option value="AL">Canada</option>
+                            <option value="DZ">India</option>
+                            <option value="AS">Russia</option>
+                            <option value="AD">USA</option>
+                        </select></li>
+                    <li><label for="zip">ZIP Code:</label></li>
+                    <li><input type="text" name="zip" /></li>
+                    <li><label for="email">Email:</label></li>
+                    <li><input type="text" name="email" size="50" /></li>
+                    <li><label id="gender">Sex:</label></li>
+                    <li><input type="radio" name="msex" value="Male" /><span>Male</span></li>
+                    <li><input type="radio" name="fsex" value="Female" /><span>Female</span></li>
+                    <li><label>Language:</label></li>
+                    <li><input type="checkbox" name="en" value="en" checked /><span>English</span></li>
+                    <li><input type="checkbox" name="nonen" value="noen" /><span>Non English</span></li>
+                    <li><label for="desc">About:</label></li>
+                    <li><textarea name="desc" id="desc"></textarea></li>
+                    <li><input type="submit" name="submit" value="Submit" /></li>
+                </ul>
+            </form>
+        </body>
+
+        </html>
+
+    </main>
+    <p>
+    </p>
+    <script src="../scripts/index.js"></script>
+    <script src="scripts/week4.js" type="module"></script>
+</body>
+
+</html>
