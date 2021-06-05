@@ -1,27 +1,31 @@
 const links = [
     {
         label: "Week 1 notes",
-        url: "week1/index.html"
+        url: "/wdd330/week1/index.html"
     },
     {
         label: "Week 2 notes",
-        url: "week2/index.html"
+        url: "/wdd330/week2/index.html"
     },
     {
         label: "Week 3 notes",
-        url: "week3/index.html"
+        url: "/wdd330/week3/index.html"
     },
     {
         label: "Week 4 notes",
-        url: "week4/index.html"
+        url: "/wdd330/week4/index.html"
     },
     {
         label: "Week 5 notes",
-        url: "week5/index.html"
+        url: "/wdd330/week5/index.html"
     },
     {
         label: "Week 6 notes",
-        url: "week6/index.html"
+        url: "/wdd330/week6/index.html"
+    },
+    {
+        label: "Week 7 notes",
+        url: "/wdd330/week7/index.html"
     },
 ];
 
