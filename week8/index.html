@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WDD330 Portfolio</title>
+  <link href="../styles/styles.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+  <nav>
+    <ul>
+    </ul>
+  </nav>
+  <h1>Week 8 Notes:</h1>
+  <p>
+    Animation and transitions can be added to the content of web page using CSS.
+    It is not as heavy as javascript animations which is good for users especially
+    on mobile devices. with transition, transoform, and animation properties that can
+    be added to CSS to make it look more dyamic. The time it takes can be set as well as
+    and there are a lot of different options that can be selected.
+  </p>
+  <h1>Code Example:</h1>
+  <p>
+    I found a simple example but it helped me understand how this properties can be used to make animations on CSS.
+  </p>
+  <!DOCTYPE html>
+  <html>
+
+  <head>
+    <style>
+      div {
+        width: 100px;
+        height: 100px;
+        background-color: red;
+        position: relative;
+        animation-name: example;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+      }
+
+      @keyframes example {
+        0% {
+          background-color: red;
+          left: 0px;
+          top: 0px;
+        }
+
+        25% {
+          background-color: yellow;
+          left: 200px;
+          top: 0px;
+        }
+
+        50% {
+          background-color: blue;
+          left: 200px;
+          top: 200px;
+        }
+
+        75% {
+          background-color: green;
+          left: 0px;
+          top: 200px;
+        }
+
+        100% {
+          background-color: red;
+          left: 0px;
+          top: 0px;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <div></div>
+  </body>
+
+  </html>
+  <script src="../scripts/index.js"></script>
+</body>
+
+</html>

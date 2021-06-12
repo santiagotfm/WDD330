@@ -27,6 +27,10 @@ const links = [
         label: "Week 7 notes",
         url: "/wdd330/week7/index.html"
     },
+    {
+        label: "Week 8 notes",
+        url: "/wdd330/week8/index.html"
+    },
 ];
 
 // get pointer to <ul> element
