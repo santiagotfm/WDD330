@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WDD330 Portfolio</title>
+  <link href="../styles/styles.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+  <nav>
+    <ul>
+    </ul>
+  </nav>
+  <h1>Week 9 Notes:</h1>
+  <p>
+    This week in the readings I learned about all the different functions, and properties,
+    and all of the things that can be achieved through the window object.
+  </p>
+  <h1>Code Example:</h1>
+  <p>
+    I found an example of some used that the window object may have.
+  </p>
+
+  <!DOCTYPE html>
+<html>
+<head>
+<script>
+var w;
+function openwindow() {
+  w = window.open('','', 'width=100,height=100');
+  w.focus();
+}
+
+function resizewindow() {
+  w.resizeTo(500, 500);
+  w.focus();
+}
+
+function resizethiswindow() {
+  w.window.resizeBy(+20, +20);
+  w.focus();
+}
+
+</script>
+</head>
+<body>
+
+<button onclick="openwindow()">Create window</button>
+<button onclick="resizewindow()">Resize window to 500x500</button>
+<button onclick="resizethiswindow()">Increase size by 20px </button>
+
+</body>
+</html>
+
+  <script src="../scripts/index.js"></script>
+</body>
+
+</html>

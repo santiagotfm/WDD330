@@ -58,7 +58,7 @@ function displayTodos(todos) {
 }
 
 
-let button = document.querySelector('input[type="button"]').addEventListener("click", (e) => {
+document.querySelector('input[type="button"]').addEventListener("click", (e) => {
     let content = document.querySelector("#content");
     let todo = new Todo(content.value);
     toDoList.push(todo);
@@ -70,14 +70,14 @@ let button = document.querySelector('input[type="button"]').addEventListener("cl
     displayTodos(toDoList);
 });
 
-let all = document.querySelector('#all').addEventListener("click", (e) => {
+document.querySelector('#all').addEventListener("click", (e) => {
     displayTodos(toDoList);
 });
 
-let activeF = document.querySelector('#active-filter').addEventListener("click", (e) => {
+document.querySelector('#active-filter').addEventListener("click", (e) => {
     displayTodos(toDoList.filter(todo => todo.Completed === false));
 });
 
-let completedF = document.querySelector('#completed-filter').addEventListener("click", (e) => {
+document.querySelector('#completed-filter').addEventListener("click", (e) => {
     displayTodos(toDoList.filter(todo => todo.Completed === true));
 });
