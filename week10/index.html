@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WDD330 Portfolio</title>
+  <link href="../styles/styles.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+  <nav>
+    <ul>
+    </ul>
+  </nav>
+  <h1>Week 10 Notes:</h1>
+  <p>
+    Validating forms can be done using javascript. There are different things to make sure we obtain
+    the right input from the user. Make sure it is in the required pattern and that there is no option
+    to leave a blank field.
+  </p>
+  <h1>Code Example:</h1>
+  <p>
+    This small form uses client-side validation to ensure the email address is entered correctly.
+    If not, it will show an error message depending on the type of error there is.
+    </head>
+
+    <body>
+      <form novalidate>
+        <p>
+          <label for="mail">
+            <span>Please enter an email address:</span><br>
+            <input type="email" id="mail" name="mail" required minlength="8">
+            <span class="error" aria-live="polite"></span>
+          </label>
+        </p>
+        <button>Submit</button>
+      </form>
+      <h1>Fetch Api:</h1>
+      <p>
+        The fetch api is a great way to use external sources including JSON files and
+        obtain the information. Fetch is used through URLs and gives us the capability to
+        send requests to pass information to be used on a web page. Then that information passed
+        is known as the response. Other properties such as headers can be implemented to manage
+        it depending on the type of information being passed.
+
+        <h1>Code Example:</h1>
+      </p>
+      <p>For this exmaple, I used a local file called users.json containing an array
+        of objects that in this case are representing random users. After clicking
+        the button a foreach loop go through each object and display the user's full name
+        and email address.
+      </p>
+      <button id="show">Show info below</button>
+      <div class="container"></div>
+
+    </body>
+
+</html>
+</p>
+
+
+<script src="../scripts/index.js"></script>
+<script src="scripts/indexReadings.js"></script>
+</body>
+
+</html>
