@@ -1,5 +1,17 @@
 const links = [
     {
+        label: "Main Menu",
+        url: "/wdd330/index.html"
+    },
+    {
+        label: "To-Do App",
+        url: "/wdd330/week6/todo.html"
+    },
+    {
+        label: "Workout Exercises App",
+        url: "/wdd330/workout/index.html"
+    },
+    {
         label: "Week 1 notes",
         url: "/wdd330/week1/index.html"
     },
@@ -39,6 +51,10 @@ const links = [
         label: "Week 10 notes",
         url: "/wdd330/week10/index.html"
     },
+    {
+        label: "Week 11 notes",
+        url: "/wdd330/week11/client/week11.html"
+    }
 ];
 
 // get pointer to <ul> element

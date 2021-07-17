@@ -1,0 +1,64 @@
+[{
+    "id": 0,
+    "name": "Parallel Grip Pull Up",
+    "image": "https://mirafit.co.uk/pub/media/wordpress/3fe0e5ee7168e5c00ed2c54c478d7842.jpg",
+    "description": "Grasp the bar with an overhand grip and begin from a dead hang (arms fully extended, about shoulder width apart). Pull up toward the bar by bending at the arms and clear it with your chin.  Pause at the top of the exercise and then lower back down under control. Return to the starting position and repeat. ",
+    "sets": 3,
+    "reps": "10",
+    "rest": 45
+},
+{
+    "id": 1,
+    "name": "Wide Grip Pulldown",
+    "image": "https://cdn.muscleandstrength.com/sites/default/files/wide-grip-lat-pulldown.jpg",
+    "description": "Grasp the bar with a pronated (overhand) grip, with your hands more than shoulder-width apart. Exhale as you slowly pull the bar down until it touches the upper part of your chest. Squeeze your shoulder blades together and hold for a count of two. Inhale as you slowly return the bar to the starting position. Repeat for the recommended number of repetitions.",
+    "sets": 3,
+    "reps": "15",
+    "rest": 0
+},
+{
+    "id": 2,
+    "name": "Close Grip Pulldown",
+    "image": "https://www.gym-pact.com/wp-content/uploads/2021/04/close-grip-lat-pulldown-scaled.jpg",
+    "description": "Grasp the bar with a pronated (overhand) grip, with your hands relatively closely. Exhale as you slowly pull the bar down until it touches the upper part of your chest. Squeeze your shoulder blades together and hold for a count of two. Inhale as you slowly return the bar to the starting position. Repeat for the recommended number of repetitions.",
+    "sets": 3,
+    "reps": "15",
+    "rest": 90
+},
+{
+    "id": 3,
+    "name": "2-Arm Dumbbell Row",
+    "image": "https://cdn.muscleandstrength.com/sites/default/files/bent-over-dumbbell-row-1.jpg",
+    "description": "Holding a dumbbell in each hand using a neutral (hammer) grip, stand with your feet shoulder-width apart. Keeping a natural curvature of your spine, flex your hips and knees until your torso is horizontal or close to horizontal. Allow the dumbbells to hang down by your sides, with your shoulders stretching downward. Keeping your elbows close to your body, exhale as you pull the dumbbells up to the sides of your waist. Hold for a count of two and squeeze your back muscles. Inhale as you lower the dumbbells to the starting position, with your shoulders stretching downward.",
+    "sets": 3,
+    "reps": "10",
+    "rest": 45
+},
+{
+    "id": 4,
+    "name": "Flat Dumbbell Bench Press",
+    "image": "https://cdn1.coachmag.co.uk/sites/coachmag/files/2018/09/dumbbell-bench-press.jpg",
+    "description": "Lie on a flat bench holding a dumbbell in each hand with an overhand grip. Start by holding the dumbbells slightly wider than shoulder width apart above your shoulders. Your palms should be facing forward. Slowly bend your elbows until they are at a 90 degree angle and your upper arms are parallel to the ground. Push the weights up by straightening your arms. As you push the weights up, move your arms in an arc to bring the dumbbells together, until they meet over the center of your chest. Hold for a count of one. Lower the dumbbells by slowly bending your elbows back to 90 degrees. Continue lowering your arms until they are a little lower than parallel to the floor. (Your elbows should be pointing slightly towards the floor and you should feel a stretch in your chest muscles and shoulders.)",
+    "sets": 3,
+    "reps": "10",
+    "rest": 45
+},
+{
+    "id": 5,
+    "name": "Cable Facepull",
+    "image": "https://cdn1.coachmag.co.uk/sites/coachmag/files/2017/07/2-3b-cable-face-pull.jpg",
+    "description": "Set up a cable machine with a double-rope attachment fixed to the high pulley. Grasp the handle in an overhand grip (palms facing the floor) and hold it with your arms fully extended out in front of you. Pull the handles towards you, keeping your upper arms parallel to the floor, so that the handles go either side of your face. Then return to the starting position, keeping the tension in the cable. Keep your movements slow and controlled throughout the exercise.",
+    "sets": 3,
+    "reps": "15",
+    "rest": 90
+},
+{
+    "id": 6,
+    "name": "Slant Board Sit Up",
+    "image": "https://i.ytimg.com/vi/DAnTf16NcT0/maxresdefault.jpg",
+    "description": "Raise yourself from the bench by bending your waist and hips. Make sure your abs stay tightened and your back is straight. You should raise up until your upper body is completely vertical. Lower yourself down slowly. You should slowly lower your body until the back of your shoulders touches the bench. Keep your back straight and your abs tight. Repeat for the desired number of repetitions.",
+    "sets": 3,
+    "reps": "10",
+    "rest": 0
+}
+]

@@ -1,0 +1,46 @@
+[{
+    "id": 0,
+    "name": "Barbell Squat",
+    "image": "https://cdn.muscleandstrength.com/sites/default/files/field/feature-wide-image/article/do-you-need-to-squat-wide.jpg",
+    "description": "Set a bar in a rack just below shoulder height and load the weight plates. Grab the bar with hands just outside shoulder width, step under and rest the barbell on your back. Lift the bar off the rack by pushing up with the legs and take a step back from the rack. Set your feet shoulder-width apart, bend at the knees slightly, pull in your lower abs, and set your head in line with your spine, keeping eyes forward. Once positioned correctly begin the squat by bending at the knees and hips together to lower your body. Keep your heels flat on the floor. Strongly push yourself back up to the starting position mirroring the descent.",
+    "sets": 3,
+    "reps": "10",
+    "rest": 45
+},
+{
+    "id": 1,
+    "name": "Leg Press",
+    "image": "https://assets.pinterest.com/ext/embed.html?id=547328160962770790",
+    "description": "Brace your abdominal muscles and push the platform away with your heels and forefoot. Your heels should remain flat on the footplate. The front of your foot or toes should never be used exclusively to move the pad forward. While exhaling, extend your legs and keep your head and back flat against the seat pad. Extend with slow control rather than with an explosive movement. Pause at the top of the movement. Do not lock out your knees and ensure that they are not bowing out or in. While inhaling, return the footplate to the starting position by gradually bending the knees. Keep the feet and back flat throughout. If you have never done leg presses before, start modestly. You can advance from there as you build strength.",
+    "sets": 3,
+    "reps": "15",
+    "rest": 45
+},
+{
+    "id": 2,
+    "name": "Lying Hamstring Curl",
+    "image": "https://cdn.shopify.com/s/files/1/1876/4703/articles/shutterstock_430434973_600x.jpg",
+    "description": "Start by lying flat on your stomach. Adjust the roller pad so that it rests comfortably a few inches under your calves, just above the heels. Check to make sure the pads aren't too high up on your calves as this can place pressure on your Achilles tendon and reduce your range of motion. Stretch your legs out fully. On an inhale, lightly grasp the support handles on each side of the machine. Lift your feet smoothly as you exhale, keeping your hips firmly on the bench. Inhale as you flex your knees and pull your ankles as close to your buttocks as you can. Hold this position for a beat, allowing yourself to make sure you are focused as you prepare to lower your legs. Inhale fully as you return your feet to starting position in a smooth, slow, controlled movement.",
+    "sets": 3,
+    "reps": "15",
+    "rest": 45
+},
+{
+    "id": 3,
+    "name": "Calves on Leg Press",
+    "image": "https://i.ytimg.com/vi/RcKQbiL-ZOc/maxresdefault.jpg",
+    "description": "Load the machine with the desired weight and take a seat. Sit down and position your feet on the sled with a shoulder width stance. Take a deep breath, extend your legs, but keep the safeties locked (if possible). Position your feet at the base of the platform and allow the heels to hang off. Lower the heels by dorsiflexing the ankles until the calves are fully stretched. Drive the weight back to the starting position by extending the ankles and flexing the calves. Repeat for the desired number of repetitions.",
+    "sets": 4,
+    "reps": "15",
+    "rest": 0
+},
+{
+    "id": 4,
+    "name": "Leg Extension Stack Drop",
+    "image": "https://www.bodybuilding.com/images/2019/january/5-techniques-for-a-killer-quad-sweep-1-700xh.jpg",
+    "description": "Place your hands on the hand bars. Lift the weight while exhaling until your legs are almost straight. Do not lock your knees. Keep your back against the backrest and do not arch your back. Exhale and lower the weight back to starting position.",
+    "sets": 3,
+    "reps": "30",
+    "rest": 0
+}
+]

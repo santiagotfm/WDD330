@@ -1,0 +1,73 @@
+[{
+    "id": 0,
+    "name": "Incline Barbell Bench Press",
+    "image": "https://images.pexels.com/photos/3837781/pexels-photo-3837781.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "description": "Lie on the bench on your back and put your feet on the floor. Make sure your shoulder blades (scapulae) are flat on the bench. Grab the bar with your hands shoulder-width apart and gently pull it out of the supports until it is above your chest with your arms fully extended. As you lower the bar toward your chest, take a deep breath and then breathe in. In this part of the movement, you must lower the bar carefully and constantly under tension. When the bar touches your chest, make sure it does not bounce, as this will decrease the accumulated tension and increase the risk of injury. Extend your arms to return the bar to the starting position. Repeat this process as many times as you have listed in your training plan.",
+    "sets": 4,
+    "reps": "10",
+    "rest": 45
+},
+{
+    "id": 1,
+    "name": "Flat Dumbbell Fly",
+    "image": "https://cdn.muscleandstrength.com/sites/default/files/dumbbell-fly.jpg",
+    "description": "Lie on your back on a flat incline bench. Place your feet firmly on the floor on both sides of the bench. Your head and back should remain firmly pressed on the bench throughout the exercise. Ask an observer to hand you the 2 weights, or gently pick them up off the floor and hold 1 in each hand. Raise your arms above your head so that they are extended but not locked. There should be a slight bend in the elbow, and the palms and weights should be facing each other. Inhale and slowly lower the weights in an arcing motion until they are in line with the chest. Your arms will extend out to the sides but will not lock. Don't drop your arms lower than your shoulders. Exhale and slowly press the weights up with the same arcing motion.",
+    "sets": 4,
+    "reps": "10",
+    "rest": 0
+},
+{
+    "id": 2,
+    "name": "Push-Ups",
+    "image": "https://d2z0k43lzfi12d.cloudfront.net/blog/vcdn329/wp-content/uploads/2018/02/thumbnail_1200x800-4-1024x683.jpg.webp",
+    "description": "Get into the plank position but this time you have to support yourself on your hands and your forearms are extended. Keep your back straight and lower until your torso almost touches the ground. The movement has to be slow and regular without jerking or stopping. We recommend inhaling while lowering your torso. Go back up until your arms are extended. Don't forget to keep your back straight. We recommend exhaling during the climb.",
+    "sets": 3,
+    "reps": "To Failure",
+    "rest": 90
+},
+{
+    "id": 3,
+    "name": "Underhand EZ Bar Row",
+    "image": "https://d3h9ln6psucegz.cloudfront.net/wp-content/uploads/2019/08/Underhand-Barbell-Row.jpg",
+    "description": "Grab the bar with a double underhand grip, slightly outside shoulder width. Hinge over by pushing your hips back with the abs braced and shoulders retracted to weld your spine. The bar should sit slightly below the knee as long as the lower back stays flat and the trunk engaged. Drive the elbows back until they’re even with your body and the bar nears your abdomen. Remember to stick your chest out while pulling the shoulders down and back. Squeeze for maximal muscular contraction for a one-count, and then slowly lower the weight under control to the starting position. Overall, it’s imperative to hold position with eccentric control and stability through the trunk while the limbs are moving – a true function of a strong core.",
+    "sets": 4,
+    "reps": "10",
+    "rest": 45
+},
+{
+    "id": 4,
+    "name": "Dumbbell Lateral Raise",
+    "image": "https://www.t-nation.com/wp-content/uploads/2020/08/3-Lateral-Raise-Variations-You-Havent-Tried.jpg",
+    "description": "To begin the exercise we must stand, with the legs slightly bent and hip width apart. The back must remain straight and in each hand we must hold a dumbbell, while the arms remain at the sides of the body or in front of the thighs, slightly bent. Taking a breath we raise the dumbbells until the arms are aligned with the shoulders and from there we slowly lower while we exhale. The lateral raises can be done with both hands together or also, alternating one arm and the other. It can also be done with pulleys.",
+    "sets": 4,
+    "reps": "15",
+    "rest": 0
+},
+{
+    "id": 5,
+    "name": "Barbell Upright Row",
+    "image": "https://barbend.com/wp-content/uploads/2017/11/Upright-Row-Exercise-Guide-Start-Position-964x1024.jpg",
+    "description": "Grab a barbell with your palms facing down and hold the weight in front of your thighs with your palms facing your body. With the weights as close to your body as possible, lift the bar toward your chest. The elbows should be open during the movement. When the bar is at chest level, not chin level, pause for a second or two and then lower it back to the starting position.",
+    "sets": 4,
+    "reps": "10",
+    "rest": 90
+},
+{
+    "id": 6,
+    "name": "Slant Board Sit Up",
+    "image": "https://i.ytimg.com/vi/DAnTf16NcT0/maxresdefault.jpg",
+    "description": "Raise yourself from the bench by bending your waist and hips. Make sure your abs stay tightened and your back is straight. You should raise up until your upper body is completely vertical. Lower yourself down slowly. You should slowly lower your body until the back of your shoulders touches the bench. Keep your back straight and your abs tight. Repeat for the desired number of repetitions.",
+    "sets": 4,
+    "reps": "10",
+    "rest": 45
+},
+{
+    "id": 7,
+    "name": "Simultaneous Alternating Incline Dumbbell Press",
+    "image": "https://d3h9ln6psucegz.cloudfront.net/wp-content/uploads/2017/09/Alternating-Dumbbell-Press-From-Top.jpg",
+    "description": "Sitting on an incline bench positioned at a 45-degree angle, hold a pair of dumbbells directly above your chest with your arms fully extended and your palms facing outward. Pull your shoulder blades together, slightly stick out your chest, and lower both dumbbells to the sides of your chest. Now, press one dumbbell upward, keeping the other at your side. Then, as you lower the dumbbell, press the other one upward.",
+    "sets": 3,
+    "reps": "50",
+    "rest": 0
+}
+]

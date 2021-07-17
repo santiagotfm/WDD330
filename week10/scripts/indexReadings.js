@@ -53,30 +53,77 @@ function showError() {
 async function getUsers() {
   let url = 'users.json';
   try {
-      let res = await fetch(url);
-      return await res.json();
+    let res = await fetch(url);
+    return await res.json();
   } catch (error) {
-      console.log(error);
+    console.log(error);
   }
 }
+
+// const users = await getUsers();
+// localStorage.setItem("users", JSON.stringify(usersList));
+
+
+// let usersList = [];
+
+if (localStorage.getItem('users')) {
+  usersList = JSON.parse(localStorage.getItem('users'));
+  // console.log(users);
+  console.log(usersList);
+}
+
+renderUsers(usersList);
 
 async function renderUsers() {
   let users = await getUsers();
   let html = '';
   users.forEach(user => {
-      let htmlSegment = `<div class="user">
-                          <h2>${user.firstName} ${user.lastName}</h2>
-                          <div class="email"><a href="email:${user.email}">${user.email}</a></div>
-                      </div>`;
 
-      html += htmlSegment;
+    if (usersList[user.id] != null) {
+      user.email = usersList[user.id].email;
+    }
+
+    let htmlSegment = `<div class="user">
+    <h2>${user.firstName} ${user.lastName}</h2>
+    <div class="email"><a id="${user.id}" href="email:${user.email}">${user.email}</a></div>
+    <input class="newEmail" id="${user.id}" type="text" name="email">
+    <button class="editEmail" id="${user.id}">Change Email</button>
+    </div>`;
+
+    html += htmlSegment;
+
+    let container = document.querySelector('.container');
+    container.innerHTML = html;
+
+    if (usersList.length < 2) {
+      usersList.push(user);
+      console.log(usersList);
+      localStorage.setItem("users", JSON.stringify(usersList));
+    }
   });
 
-  let container = document.querySelector('.container');
-  container.innerHTML = html;
+  if (document.querySelector('.editEmail') != null) {
+    let selectedButtons = document.querySelectorAll('.editEmail');
+
+    selectedButtons.forEach((selectedButton) => {
+      selectedButton.addEventListener("click", (e) => {
+        let selectedId = selectedButton.id;
+        let newEmail = document.querySelector('input[id="' + selectedId + '"]');
+        document.querySelector('a[id="' + selectedId + '"]').innerHTML = newEmail.value;
+        document.querySelector('a[id="' + selectedId + '"]').href = "email:" + newEmail.value;
+        document.querySelector('input[id="' + selectedId + '"]').value = "";
+        console.log(document.querySelector('a[id="' + selectedId + '"]').innerHTML);
+        usersList[selectedId].email = document.querySelector('a[id="' + selectedId + '"]').innerHTML;
+        console.log(usersList[selectedId].email);
+        localStorage.setItem("users", JSON.stringify(usersList));
+        console.log(usersList);
+      });
+    });
+  }
 }
 
-
 document.querySelector('#show').addEventListener("click", (e) => {
+  usersList.splice(email);
   renderUsers();
+  console.log(usersList);
 });

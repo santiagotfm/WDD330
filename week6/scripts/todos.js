@@ -6,6 +6,7 @@ let toDoList = [];
 
 if (localStorage.getItem('todos')) {
     toDoList = JSON.parse(localStorage.getItem('todos'));
+    console.log(toDoList);
 }
 
 displayTodos(toDoList);
@@ -30,7 +31,6 @@ function displayTodos(todos) {
         toDoCheckbox.addEventListener("click", (e) => {
             let selectedId = e.target.dataset.id;
             let selectedTodo = toDoList.find(todo => todo.Id === parseInt(selectedId));
-
             selectedTodo.Completed = !selectedTodo.Completed;
 
             localStorage.setItem("todos", JSON.stringify(toDoList));
